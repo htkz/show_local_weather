@@ -3,23 +3,24 @@
     <head>
         <meta charset="utf-8">
         <title></title>
-        <link rel="stylesheet" href="css/weather-icons.min.css">
-        <link rel="stylesheet" href="css/weather-icons-wind.min.css">
-        <link rel="stylesheet" href="css/weather.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>
-            Free C<span><i class="wi wi-hail"></i></span>de Camp
+            Free C<span><i class="fa fa-cloud"></i></span>de Camp
             <br/>
             Weather App
         </h1>
-
-        <p id="pos"></p>
-        <p id="temp-f"></p>
-        <p id="temp-s"></p>
-        <p id=""></p>
-        <p id="icon"></p>
+        <p class="weather-info" id="city"></p>
+        <p class="weather-info" id="pos"></p>
+        <p class="weather-info" id="temp-link">
+            <a id="change-type">
+                <span id="temp" value="c"></span>
+            </a>
+        </p>
+        <p class="weather-info" id="desc"></p>
+        <p class="weather-info" id="icon"></p>
         <p>Inspired By sunmo</p>
         <h1></h1>
     </body>
